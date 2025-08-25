@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editkaro.in - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-text">
+      <h1>Editkaro.in</h1>
+      <p>Creative Video Editing & Social Media Marketing</p>
+    </div>
+  </section>
+
+  <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <button onclick="filterVideos('all')">All</button>
+    <button onclick="filterVideos('short')">Short-form</button>
+    <button onclick="filterVideos('long')">Long-form</button>
+    <button onclick="filterVideos('gaming')">Gaming</button>
+    <button onclick="filterVideos('football')">Football</button>
+    <button onclick="filterVideos('ads')">Ads</button>
+    <button onclick="filterVideos('anime')">Anime</button>
+    <button onclick="filterVideos('documentary')">Documentary</button>
+    <button onclick="filterVideos('color')">Color Grading</button>
+  </div>
+
+  <!-- Portfolio Section -->
+  <div class="container">
+    <h2>Our Work</h2>
+    <div class="grid" id="videoGallery">
+      <!-- Example Cards -->
+      <div class="card short">
+        <iframe src="https://www.youtube.com/embed/9bZkp7q19f0" allowfullscreen></iframe>
+        <p>Short Form Edit</p>
+      </div>
+
+      <div class="card long">
+        <iframe src="https://www.youtube.com/embed/aqz-KE-bpKQ" allowfullscreen></iframe>
+        <p>Long Form Edit</p>
+      </div>
+
+      <div class="card gaming">
+        <iframe src="https://www.youtube.com/embed/2g811Eo7K8U" allowfullscreen></iframe>
+        <p>Gaming Montage</p>
+      </div>
+
+      <div class="card football">
+        <iframe src="https://www.youtube.com/embed/LXb3EKWsInQ" allowfullscreen></iframe>
+        <p>Football Edit</p>
+      </div>
+
+      <div class="card ads">
+        <iframe src="https://www.youtube.com/embed/ysz5S6PUM-U" allowfullscreen></iframe>
+        <p>E-commerce Ad</p>
+      </div>
+
+      <div class="card documentary">
+        <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" allowfullscreen></iframe>
+        <p>Documentary Style</p>
+      </div>
+
+      <div class="card color">
+        <iframe src="https://www.youtube.com/embed/7QUtEmBT_-w" allowfullscreen></iframe>
+        <p>Color Grading Showcase</p>
+      </div>
+
+      <div class="card anime">
+        <iframe src="https://www.youtube.com/embed/LrUvu1mlWco" allowfullscreen></iframe>
+        <p>Anime Edit</p>
+      </div>
+
+      <div class="card ads">
+        <iframe src="https://www.youtube.com/embed/hTWKbfoikeg" allowfullscreen></iframe>
+        <p>Creative Ad</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Editkaro.in | Designed with ❤️ by You Thappatla Pranitha
+    
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
